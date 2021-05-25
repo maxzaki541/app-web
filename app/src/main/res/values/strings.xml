@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProjectQueue</string>
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+
+    <string name="card">เลขบัตรประจำตัวประชาชน</string>
+    <string name="todo">todo</string>
+    <string name="password">password</string>
+    <string name="log_in">เข้าสู่ระบบ</string>
+
+    <string name="thai_traditinal_queue">นวดแพทย์แผนไทย</string>
+
+
+    <string name="reg">สมัครสมาชิก</string>
+
+
+    <string name="ttcardnum">เลขบัตรประจำตัวประชาชน</string>
+    <string name="regpass">รหัสผ่าน</string>
+    <string name="btnreg">สมัครสมาชิก</string>
+    <string name="email">อีเมล</string>
+    <string name="returnreg">ย้อนกลับ</string>
+    <string name="register">สมัครสมาชิก</string>
+
+
+    <string name="home">Home</string>
+    <string name="thai_traditional_queue22">Thai Traditional Queue</string>
+    <string name="home2">Home</string>
+    <string name="about">เกี่ยวกับ</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="logout">ออกจากระบบ</string>
+    <string name="home5">Thai Traditional Queue</string>
+    <string name="todo6">TODO</string>
+    <!--<string name="todo7">TODO</string>-->
+    <string name="about_you">
+        ทำหน้าที่ในการรักษา บรรเทาอาการของผู้ป่วยด้วยการนวด
+        และอาจมีการใช้ยากินสมุนไพรควบคู่ไปด้วยจะเห็นได้ว่า ผู้ที่เป็นแพทย์แผนไทยที่สมบูรณ์แบบนั้น
+        จะต้องมีความรู้ความสามารถและทักษะในการทำหน้าที่ได้ครบทั้ง 4 ด้าน แต่แพทย์แผนไทยแต่ละคนจะมีความถนัด ความชำนาญ ความเชี่ยวชาญในแต่ละด้านไม่เหมือนกัน
+        จึงทำให้เกิดแพทย์แผนไทยเฉพาะด้านขึ้น เช่น หมอยา (เก่งทางด้านการรักษาโรคด้วยการรักษาด้วยยาสมุนไพร) หมอตำแย (เก่งทางผดุงครรภ์ไทย การทำคลอด) หมอนวด (เก่งการให้การรักษาโรคด้วยการนวด)
+    </string>
+    <string name="txtabout">ไม่ควรประคบส่วนที่มีบาดแผล เพราะจะยิ่งทำให้มีการอักเสบ
+        หรือถ้ามีโรคประจำตัว มีอาการชาปลายมือ ปลายเท้า รับความรู้สึกได้ไม่ดี การประคบโดยใช้ความร้อน
+        หรือความเย็นเพื่อบรรเทาอาการ อาจทำให้เกิดการบาดเจ็บได้ ฯลฯ แต่หากรู้สึกปวดเมื่อย ปวดบ่า คอ ไหล่
+        สามารถใช้การประคบร้อนและเย็นได้ โดยเลือกประคบตามความรู้สึกที่ทำให้สบาย โดยการใช้ความร้อนจะช่วยผ่อนคลายกล้ามเนื้อ ส่วนประคบเย็นช่วยบรรเทาอาการปวด"</string>
+    <string name="btnqueue">จองคิว</string>
+    <string name="btn_history">ประวัติการจองคิว</string>
+    <string name="btn_address">ที่ตั้งสำนักงาน</string>
+
+
+    <string name="tvperson">ชื่อผู้จอง :</string>
+    <string name="btndate">เลือกวัน/เดือน/ปี</string>
+    <string name="btntime">เลือกเวลา</string>
+    <string name="txtdate">วัน/เดือน/ปี</string>
+    <string name="txttime">เวลา</string>
+    <string name="btnokk">ตกลง</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="ttime">เวลา: </string>
+    <string name="cccard">เลขประจำตัวประชาชน: </string>
+    <string name="dddate">วัน: </string>
+    <string name="tttype">ประเภทการบริการ: </string>
+    <string name="rrresis">สมัครสมาชิก</string>
+    <string name="log">เข้าสู่ระบบ</string>
+    <string name="regot">ลืมรหัสผ่าน?</string>
+    <string name="lname">นามสกุล</string>
+    <string name="fname">ชื่อ</string>
+    <string name="user">ชื่อผู้ใช้</string>
+    <string name="call">เบอร์โทร</string>
+    <string name="conpa">ยืนยันรหัสผ่าน</string>
+
+
+</resources>

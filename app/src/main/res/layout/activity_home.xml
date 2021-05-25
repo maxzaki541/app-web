@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="#CCFFCC"
+    tools:context=".HomeActivity">
+
+
+    <!--ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="231dp"
+        android:layout_height="234dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="349dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/q" /-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <include layout="@layout/main_toolbar" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="231dp"
+            android:layout_height="234dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="95dp"
+            android:layout_marginBottom="50dp"
+            android:contentDescription="@string/todo"
+            android:layout_gravity="center_horizontal|center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo1" />
+        <Button
+            android:id="@+id/btnQ"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/btnqueue"
+            android:textColor="#191970"
+            style="?android:attr/buttonStyleSmall"
+            android:background="@drawable/custom_input"
+
+            android:layout_gravity="center_horizontal|center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnhistory"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="@string/btn_history"
+            android:textColor="#191970"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_input"
+            android:layout_gravity="center_horizontal|center"
+            android:textSize="24sp"
+            />
+
+        <Button
+            android:id="@+id/btnAddress"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            style="?android:attr/buttonStyleSmall"
+            android:text="ที่ตั้งสำนักงาน"
+            android:textColor="#191970"
+            android:background="@drawable/custom_input"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal|center"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

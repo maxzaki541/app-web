@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="#CCFFCC"
+    tools:context=".QueueActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <include
+            layout="@layout/queue_toolbar"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvtype"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_marginTop="20dp"
+            android:text="เลือกประเภทบริการ"
+            android:textColor="#191970"
+            android:layout_marginStart="15dp"
+            android:textSize="20sp"
+            />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:textColor="#191970"
+
+            android:background="@drawable/custom_ed"
+            android:layout_marginStart="15dp">
+        </Spinner>
+        <TextView
+            android:id="@+id/tvdate"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_marginTop="10dp"
+            android:text="เลือกวันที่ต้องการจอง"
+            android:textColor="#191970"
+            android:layout_marginStart="15dp"
+            android:textSize="20sp"
+            />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="50dp">
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtdate"
+            android:layout_marginStart="15dp"
+            android:textSize="15sp"
+            android:textColor="#191970"
+            android:gravity="center_horizontal|center"
+            android:background="@drawable/custom_ed"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:hint="วัน/เดือน/ปี" />
+        <!--Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="เลือกวัน/เดือน/ปี"
+            android:background="@drawable/custom_recy"
+            android:id="@+id/btndate"
+            android:textSize="15sp"
+
+            /-->
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvtime1"
+            android:layout_width="225dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_marginTop="3dp"
+            android:text="เลือกเวลาที่ต้องการจอง"
+            android:textColor="#191970"
+            android:layout_marginStart="15dp"
+            android:textSize="20sp"
+            />
+        <!--TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" -->
+
+
+            <RadioGroup
+                android:id="@+id/RadioGroup"
+                android:layout_width="200dp"
+                android:layout_height="190dp"
+
+                android:layout_gravity="center_horizontal|center"
+
+                android:layout_marginTop="0dp">
+
+                <RadioButton
+                    android:id="@+id/rdo_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#191970"
+                    android:textSize="18sp"
+                    android:text=" 09:00-10:30  น." />
+
+                <RadioButton
+                    android:id="@+id/rdo_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#191970"
+                    android:textSize="18sp"
+                    android:text=" 10:30-12:00  น." />
+                <RadioButton
+                    android:id="@+id/rdo_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#191970"
+                    android:textSize="18sp"
+                    android:text=" 13:00-14:30  น." />
+                <RadioButton
+                    android:id="@+id/rdo_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#191970"
+                    android:textSize="18sp"
+                    android:text=" 14:30-16:00  น." />
+                <RadioButton
+                    android:id="@+id/rdo_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#191970"
+                    android:textSize="18sp"
+                    android:text=" 17:00-18:30   น." />
+
+                <RadioButton
+                    android:id="@+id/rdo_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#191970"
+                    android:textSize="18sp"
+                    android:text=" 18:30-20:00  น." />
+            </RadioGroup>
+
+            <!--LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#000000"
+                    android:text="น." />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#000000"
+                    android:text="น." />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#000000"
+                    android:text="น." />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#000000"
+                    android:text="น." />
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#000000"
+                    android:text="น." />
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="#000000"
+                    android:text="น." />
+
+            </LinearLayout-->
+
+        <!--/TableRow-->
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="ต่อไป"
+            android:layout_marginTop="30dp"
+
+            android:background="@drawable/custom_bt"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:id="@+id/btnok"
+            android:layout_gravity="center_horizontal|center"
+
+            />
+
+        <!--LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txttime"
+            android:layout_marginLeft="10dp"
+            android:hint="เวลา" />
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="เลือกเวลา"
+            android:background="@drawable/custom_recy"
+            android:id="@+id/btntime"
+            android:textSize="15sp"
+            />
+    </LinearLayout-->
+
+
+
+
+    </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
